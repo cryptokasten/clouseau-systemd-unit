@@ -1,0 +1,13 @@
+[Unit]
+Description=Clouseau
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/clouseau-2.17.0
+ExecStart=/opt/clouseau-2.17.0/clouseau.sh
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target
