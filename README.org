@@ -11,7 +11,7 @@
 
 ** Start script
 
-=/opt/clouseau-2.17.0=. Need to be executable.
+=/opt/clouseau-2.17.0/clouseau.sh=. Need to be executable.
 
 #+BEGIN_SRC sh :tangle opt/clouseau-2.17.0/clouseau.sh
 #!/usr/bin/bash
